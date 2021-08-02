@@ -115,6 +115,19 @@ h1, h2, h3, h4, h5, h6 {
 .herotxp{ font-size: 30px; font-weight: 500;  margin-left: 20px;}
 .logoprolagem {  max-height: 40px;}
 
+.fale{ width: 170px; position: absolute; left: -170px; color: #000;  text-shadow: #fff 1px 1px 3px;}
+.fale2{ width: 170px; position: absolute; left: -150px; color: #000;  text-shadow: #fff 1px 1px 3px;}
+
+
+.btwhats{   position: fixed;  width: 40px;  height: 40px;  padding-top: 2px;  font-size: 20px;  border-radius: 50px;  right: 15px;  bottom: 80px;  background: rgb(255, 255, 255, 1);  color: rgb(17, 184, 17);
+    transition: display 0.5s ease-in-out;  z-index: 99999;
+}
+.btwhats:hover{     background: rgb(255, 255, 255, 1);  color: rgb(73, 221, 73);}
+.btfale{   position: fixed;  width: 40px;  height: 40px;  padding-top: 2px;  font-size: 20px;  border-radius: 50px;  right: 15px;  bottom: 140px;    color: rgb(255, 191, 108);
+    transition: display 0.5s ease-in-out;  z-index: 99999;
+}
+.btfale:hover{     background: rgb(255, 255, 255, 1);  color: rgb(255, 164, 45);}
+
 .imgempresa{
   border-radius: 8px;
     box-shadow: 0 3px 10px -4px rgb(0 0 0 / 35%);
@@ -128,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     font-variant: normal;
     line-height: 1;
 
+
     display: inline-block;
 
     text-transform: none;
@@ -136,22 +150,26 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #099249 !important;
+    /* color:#612400 */
 }
+.video{height: 250px; width: auto;}
 
 @media (max-width: 768px) {
+  .video{height: auto; width: 100%;}
   #header.header-scrolled {
-    padding: 15px 0;
+    padding: 8px 0;
   }
   .herotx1{z-index: 8;top: 17%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 30px; color: #FFF; text-shadow: #5b2900 2px 3px 5px}
   .herotx2{z-index: 8;top: 22%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 43px; color: #FFF; text-shadow: #5b2900 2px 3px 5px}
-  .herotx3{ z-index: 8;top: 50%; left: 15%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 50px; color: #FFF; font-weight: 700; text-shadow: #5b2900 2px 3px 5px}
-  .herotx4{ z-index: 8;top: 57%; left: 15%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 50px; color: #FFF; font-weight: 700; text-shadow: #5b2900 2px 3px 5px}
-  .herotx5{ z-index: 8;top: 64%; left: 15%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 50px; color: #FFF; font-weight: 700; text-shadow: #5b2900 2px 3px 5px}
-  .imgmapa{  z-index: 6;top: 20%; left: 15%; position: absolute; width: 85%; opacity: .8; }
-  .imgponto{  z-index: 7;top: 20%; left: 10%; position: absolute; width: 90%;opacity: .8;}
+  .herotx3{ z-index: 8;top: 50%; left: 10%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 40px; color: #FFF; font-weight: 700; text-shadow: #5b2900 2px 3px 5px}
+  .herotx4{ z-index: 8;top: 57%; left: 10%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 40px; color: #FFF; font-weight: 700; text-shadow: #5b2900 2px 3px 5px}
+  .herotx5{ z-index: 8;top: 64%; left: 10%; position: absolute; font-family: 'Titillium Web', sans-serif; font-size: 40px; color: #FFF; font-weight: 700; text-shadow: #5b2900 2px 3px 5px}
+  .imgmapa{  z-index: 6;top: 20%; left: 13%; position: absolute; width: 85%; opacity: .8; }
+  .imgponto{  z-index: 7;top: 17%; left: 8%; position: absolute; width: 90%;opacity: .8;}
   .counts .count-box i {text-align: center; float: none;}
   .count-box i{ text-align: center;}
   .mtcel{ margin-top: 20px; margin-left: -40px;}
+  .logop{ width: 50px;}
 }
 
 /*--------------------------------------------------------------
@@ -478,6 +496,15 @@ section {
 
 .section-bg {
   background-color: #fcf8f4;
+  /* background: linear-gradient(rgba(255, 136, 0, 0.055), rgba(255, 255, 255, 0.356)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover; */
+  
+}
+.section-bg2 {
+  /* background-color: #fcf8f4; */
+  background: linear-gradient(rgba(255, 136, 0, 0.055), rgba(255, 255, 255, 0.356)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  
 }
 
 .section-title {
@@ -777,7 +804,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 136, 0, 0.055), rgba(255, 255, 255, 0.356)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 136, 0, 0.0), rgba(255, 255, 255, 0.0)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1028,6 +1055,9 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.bgcolorido {
+  background: linear-gradient(rgba(255, 136, 0, 0.055), rgba(255, 255, 255, 0.356)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;}
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
@@ -1367,7 +1397,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   
-  background: #493726 url("../img/footer-bg.png") no-repeat right top;
+  background: #612400 url("../img/footer-bg.png") no-repeat right top;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;

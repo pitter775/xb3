@@ -184,6 +184,20 @@
     }
   });
 
+  $(".testimonials-carousel2").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+    }
+  });
+
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,

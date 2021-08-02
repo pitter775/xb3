@@ -1,0 +1,5 @@
+AddHandler php73-script .php
+    suPHP_ConfigPath /home/xb3solucoes1/
+
+
+

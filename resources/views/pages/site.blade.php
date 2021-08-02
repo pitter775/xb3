@@ -68,14 +68,26 @@
                   <p>Fazemos pesquisas de avaliação de serviços públicos, de gestão política, solicitada desde vereadores a senadores, de mandatos, comportamento do eleitor, intenção de voto, com metodologia reconhecida no mercado.  </p>
                   <!-- <p>É possível identificar novas tendências, estimar o segmento mais lucrativo, avaliar a performance de produtos ou serviços específicos e até estimar o resultado final. </p> -->
                 </div>
-
-
-
-                
-
               </div>
+
             </div><!-- End .content-->
+            
           </div>
+
+   
+                <!-- <div class="col-md-4" data-aos="fade-up" style="padding-right: 20px;">
+                  <h3>Totem de mesa</h3>
+                  <p>Excelente para utilizar no balcão de PDV e apresentar ofertas, promoções ou outras informações relevantes no momento do fechamento da compra. Isso é apenas uma das possibilidades, você pode utilizar o Totem de mesa onde quiser com a mesma eficiência do totem de chão, mas com a vantagem de ser mais compacto e de fácil visualização de seu cliente.</p>
+                </div>
+                <div class="col-md-4" style="margin: 20px 0px" data-aos="fade-up">
+                <img src="{{ asset('img') }}/totens.png" class="img-fluid "  alt="" style="padding-bottom: 60px;">
+                </div>
+                <div class="col-md-4" data-aos="fade-up" style="padding-bottom: 40px;">
+                  <h3>Totem de chão</h3>
+                  <p>A melhor escolha quando o assunto é mobilidade dentro do seu espaço, além de ser excelente para aplicar sua identidade e comunicação é muito funcional e fácil de utilizar pelo seu cliente.</p>
+                </div> -->
+  
+          
           <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">            
             <img src="{{ asset('img') }}/empresa.jpg" class="img-fluid imgempresa"  alt="">
           </div>
@@ -85,7 +97,9 @@
             <p class="mtcel">Nós damos todo o suporte para determinar as melhores metodologias de pesquisa para obter as informações necessárias. Basta apresentar sua necessidade e nós iremos auxiliar no melhor modelo de pesquisa, sempre buscando a melhor relação custo-benefício.</p>
             <p class="mtcel">Entre em contato e venha conhecer nossa pesquisa e consultoria!</p>
 
-            <a href="" class="btn btnwhats mtcel "><i class="icofont-brand-whatsapp"></i> Fale agora mesmo!</a>
+            <a href="https://wa.me/5514996708574?text=Quero%20saber%20mais" target="_blank" class="svelte-11d2z92 btn btnwhats mtcel "><i class="icofont-brand-whatsapp"></i> Fale agora mesmo!</a>
+
+
             
           </div>
         </div>
@@ -170,15 +184,16 @@
     </section><!-- End Cta Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <section id="testimonials" class="testimonials section-bg2">
       <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
           <!-- <h2>Testimonials</h2> -->
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
+       
 
-        <div class="owl-carousel testimonials-carousel">
+        <div class="owl-carousel testimonials-carousel" >
 
           <div class="testimonial-item" style="text-align: center;" data-aos="fade-up">
             <p>
@@ -188,13 +203,13 @@
             </p>
             <img src="{{ asset('img') }}/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
             <h3>Arlei Tomazoni</h3>
-            <h4>Candidato a Prefeito de Três Passos/RS</h4>
+            <h4>Prefeito de Três Passos/RS</h4>
           </div>
 
           <div class="testimonial-item" style="text-align: center;" data-aos="fade-up" data-aos-delay="100">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              A empresa XB3 apresentou um brilhante trablho em pesquisa eleitorais em nosso município. Muito obrigado!
+              A empresa XB3 apresentou um brilhante trabalho em pesquisa eleitorais em nosso município. Muito obrigado!
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
             <img src="{{ asset('img') }}/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -202,7 +217,83 @@
             <h4>Presidente do Solidariedade Paranapanema/SP</h4>
           </div>
 
+          <div class="testimonial-item" style="text-align: center;" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Encomendei uma pesquisa da XB3 e a empresa atendeu todas as nossas expectativas. Eu recomendo!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="{{ asset('img') }}/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
+            <h3>Carlinhos</h3>
+            <h4>Presidente do PSD Santa Rosa do Viterbo/SP</h4>
+          </div>
+
+          <div class="testimonial-item" style="text-align: center;" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quero agradecer a empresa XB3 pelo trabalho realizado em nosso município. Agradeço toda a equipe pelo brilhante trabalho!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="{{ asset('img') }}/testimonials/testimonials-7.jpg" class="testimonial-img" alt="">
+            <h3>Climar Fonteneles</h3>
+            <h4>Vereador Oiapoque/AP</h4>
+          </div>
+
         </div>
+        <div class="owl-carousel testimonials-carousel2" style="margin-top: 40px;" >
+
+          <div class="testimonial-item" style="text-align: center;" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <video width="auto" class="video"  controls="controls">
+                <source src="{{ asset('img') }}/dep01.mp4" type="video/mp4">
+                <object data="" height="auto">
+                    <embed width="100%" height="auto" src="{{ asset('img') }}/video.mp4">
+                </object>
+            </video>
+              <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
+            </p>
+            <img src="{{ asset('img') }}/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Leandro Corrêa</h3>
+            <h4>Prefeito de Brotas/SP</h4>
+          </div>
+
+          <div class="testimonial-item" style="text-align: center;" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <video width="auto" class="video" controls="controls">
+                <source src="{{ asset('img') }}/dep02.mp4" type="video/mp4">
+                <object data="" height="auto">
+                    <embed width="100%" height="auto" src="{{ asset('img') }}/video.mp4">
+                </object>
+            </video>
+              <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
+            </p>
+            <img src="{{ asset('img') }}/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Manoel Rosa</h3>
+            <h4>Prefeito de Bastos/SP</h4>
+          </div>
+
+          <div class="testimonial-item" style="text-align: center;" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <video width="auto" class="video" controls="controls">
+                <source src="{{ asset('img') }}/dep03.mp4" type="video/mp4">
+                <object data="" height="auto">
+                    <embed width="100%" height="auto" src="{{ asset('img') }}/video.mp4">
+                </object>
+            </video>
+              <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
+            </p>
+            <img src="{{ asset('img') }}/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>Ordilei Felix</h3>
+            <h4>São Manuel/SP</h4>
+          </div>
+
+
+          </div>
+
+        
 
       </div>
     </section><!-- End Testimonials Section -->
@@ -238,9 +329,11 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
-              <i class="bx2 icofont-brand-whatsapp"></i>
-              <h3>Fale agora mesmo!</h3>
-              <p>(14) 99670-8574</p>
+              <a href="https://wa.me/5514996708574?text=Quero%20saber%20mais" target="_blank">
+                <i class="bx2 icofont-brand-whatsapp"></i>
+                <h3>Fale agora mesmo!</h3>
+                <p>(14) 99670-8574</p>
+              </a>
             </div>
           </div>
 
@@ -304,8 +397,8 @@
               <p>
               Rua Marcelo Giorgi, 392 - Jd. Theresa Cristina <br>
               São Manuel - SP<br><br>
-                <strong>Telefone:</strong> (14) 99670-8574<br>
-                <strong>Email:</strong> xb3solucoes@gmail.com<br>
+                <strong>Telefone:</strong> <a href="https://wa.me/5514996708574?text=Quero%20saber%20mais" target="_blank">(14) 99670-8574</a><br>
+                <strong>Email:</strong> contato@xb3solucoes.com.br<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -321,11 +414,33 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="https://wa.me/5514996708574?text=Quero%20saber%20mais" target="_blank" class="btwhats"><i class="icofont-brand-whatsapp icofont-2x"></i><span class="fale">Fale agora mesmo!</span></a>
+  <a href="https://survy.xb3solucoes.com.br" target="_blank" class="btfale"><i class="icofont-user-alt-3 icofont-2x"></i><span class="fale2">Área do Cliente</span></a>
+  <!-- <script>window.rwbp={email: 'contato@xb3solucoes.com.br',phone: '+5514996708574',message: 'Gostaria de mais informações'}</script> -->
+
 
 
 @endsection
 @push('scripts')
 <script>
-    console.log('teste');
+  $( '.fale' ).hide();
+  $( '.fale2' ).hide();
+    
+
+    $( ".btwhats" ).hover(
+      function() {
+        $( '.fale' ).show(100);
+      }, function() {
+        $( '.fale' ).hide(100);
+      }
+    );
+    
+    $( ".btfale" ).hover(
+      function() {
+        $( '.fale2' ).show(100);
+      }, function() {
+        $( '.fale2' ).hide(100);
+      }
+    );
 </script>
 @endpush

@@ -17,7 +17,8 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {return view('pages.site');});
-Route::post('envio-email', function (Request $request) {
+Route::get('/teste', function () {return 'teste';});
+Route::post('/envio-email', function (Request $request) {
     $user = new stdClass();
     $user->name = $request->name;
     $user->email = $request->email;
