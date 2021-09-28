@@ -401,12 +401,14 @@
                 <strong>Email:</strong> contato@xb3solucoes.com.br<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.facebook.com/xb3solucoes" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/xb3solucoes" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
               </div>
             </div>
           </div>
+          
         </div>
+        Feito com carinho por <a href="https://www.agenciaervadoce.com.br/" target="_blank">Erva Doce</a> 
       </div>
     </div>
 

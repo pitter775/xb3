@@ -17,6 +17,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {return view('pages.site');});
+Route::get('/pesquisa/{id}', 'App\Http\Controllers\Pesquisa@index')->name('pesquisa');
 Route::get('/teste', function () {return 'teste';});
 Route::post('/envio-email', function (Request $request) {
     $user = new stdClass();
