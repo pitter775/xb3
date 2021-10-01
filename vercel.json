@@ -10,7 +10,8 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourproductionurl.com",
+        "APP_KEY": "base64:uq6ri62Xc32IE9EDplT/NgyWh+VROr+y4ir4PaFiLds=",
+        "APP_URL": "https://xb3-laravel-3hftoopqj-pitter775.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
