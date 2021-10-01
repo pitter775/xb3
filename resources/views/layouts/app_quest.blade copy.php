@@ -9,12 +9,12 @@
     <meta name="theme-color" content="#612400">
     <meta content="pitter775@gmail.com" name="author">
     <meta property="og:description" content="{{$titulopesq}}"/>
-    <meta property="og:image" content="{{ asset('img') }}/logowhats.jpg" />
+    <meta property="og:image" content="https://xb3-laravel-qjay4m1bs-pitter775.vercel.app/img/logowhats.jpg" />
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="pt_BR"/> 
 
     <link rel="apple-touch-icon" sizes="76x76" href="">
-    <link rel="icon" type="image/png" href="{{ asset('img') }}/logop.png">
+    <link rel="icon" type="image/png" href="https://xb3-laravel-qjay4m1bs-pitter775.vercel.app/img/logop.png">
 
     <title> XB3 Soluções - Pesquisa </title>
 
