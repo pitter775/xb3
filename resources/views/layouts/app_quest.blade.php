@@ -8,7 +8,7 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <meta name="theme-color" content="#612400">
     <meta content="pitter775@gmail.com" name="author">
-    <meta property="og:description" content="Conheça nosso sistema de pesquisas inteligentes. Somos referência em pesquisa digital."/>
+    <meta property="og:description" content="{{$titulopesq}}"/>
     <meta property="og:image" content="{{ asset('img') }}/logowhats.jpg" />
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="pt_BR"/> 
@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="">
     <link rel="icon" type="image/png" href="{{ asset('img') }}/logop.png">
 
-    <title> XB3 Soluções </title>
+    <title> XB3 Soluções - Pesquisa </title>
 
     <!-- CSS Files -->
     <link href="{{ asset('vendor') }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -50,6 +50,7 @@
 
     <!-- Vendor JS Files -->
     <script src="{{ asset('vendor') }}/jquery/jquery.min.js"></script>
+    <script src="{{ asset('vendor') }}/jquery/jquery-ui.min.js"></script>
     <script src="{{ asset('vendor') }}/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('vendor') }}/jquery.easing/jquery.easing.min.js"></script>
     <script src="{{ asset('vendor') }}/waypoints/jquery.waypoints.min.js"></script>
@@ -59,6 +60,7 @@
     <script src="{{ asset('vendor') }}/owl.carousel/owl.carousel.min.js"></script>
     <script src="{{ asset('vendor') }}/aos/aos.js"></script>
     <script src="{{ asset('vendor') }}/md/mdb.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
     <!-- Template Main JS File -->
     <script src="{{ asset('js') }}/main.js"></script>
     <!-- <script src="{{ asset('js') }}/whats.js"></script> -->
