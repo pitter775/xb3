@@ -1,8 +1,7 @@
 {
     "version": 2,
     "functions": [{
-        "api/index.php": { "runtime": "vercel-php@0.3.1" },
-        "public/**": { "runtime": "@vercel/static" }
+        "api/index.php": { "runtime": "vercel-php@0.3.1" }
     }],
     "routes": [
         {
@@ -18,7 +17,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_KEY": "base64:uq6ri62Xc32IE9EDplT/NgyWh+VROr+y4ir4PaFiLds=",
-        "APP_URL": "https://xb3-laravel-pitter775.vercel.app/",
+        "APP_URL": "https://xb3-laravel-pitter775.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
