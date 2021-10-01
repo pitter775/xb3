@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="">
     <link rel="icon" type="image/png" href="{{ asset('img') }}/logop.png">
 
-    <title> XB3 Soluções </title>
+    <title> XB3 Soluções - teste </title>
 
     <!-- CSS Files -->
     <link href="{{ asset('vendor') }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
