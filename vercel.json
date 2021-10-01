@@ -30,7 +30,17 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "headers": [
+        {
+          "source": "/(.*)",
+          "headers": [
+            {
+              "key": "access-control-allow-origin",
+              "value": "*"
+            }
+          ]
+        }   ]
 }
 
 
