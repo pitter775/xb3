@@ -256,6 +256,7 @@ body{height: 100vh;  background: #ffedcb }
                     if ($(this).is(':checked')) { 
                         val = parseInt(idch[1]);                          
                     }
+                    
                     data['surveyAnswer']['answers'].push({"choices": [parseInt(idch[0]), val]});
                 }            
             });
