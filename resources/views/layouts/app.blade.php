@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="">
     <link rel="icon" type="image/png" href="https://xb3-laravel.vercel.app/img/logop.png">
 
-    <title> XB3 Soluções - mudado </title>
+    <title> XB3-Soluções - mudado </title>
 
     <!-- CSS Files -->
     <link href="https://xb3-laravel.vercel.app/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />

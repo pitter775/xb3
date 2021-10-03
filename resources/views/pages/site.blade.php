@@ -29,7 +29,7 @@
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-              <h3>XB3 Soluções</h3>
+              <h3>XB3 Soluções 1</h3>
               <p>A XB3 Soluções realiza Pesquisa Digital Inteligente com presença em todo Brasil, realizando mais de 1500 pesquisas em mais de 450 cidades em todos os estados. 
               <p>Nossa missão é revelar a real fotografia da opinião dos entrevistados aos contratantes, para acabar com as dúvidas e os achismos e assim, alcançar suas metas.</p>
               <p>Também fazemos pesquisas para empresas que avaliam o consumidor/cliente para avaliar produtos, serviços, institucional, clima, top of mind, share e  trade Marketing. </p>
