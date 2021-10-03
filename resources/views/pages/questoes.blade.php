@@ -232,28 +232,31 @@ body{height: 100vh;  background: #ffedcb }
             $('input[type=radio]').each(function(){
                 if($(this).attr('data-ordem') == i){
                     if ($(this).is(':checked')) { 
-                        let val = 'on'; // pegar o indice   
+                        let val = $(this).attr('id');
+                        val = val.replace('qt-', ''); 
+                        val = val.split("-");
+                        val = parseInt(val[1]);
                         data['surveyAnswer']['answers'].push({"choices": [val]});                     
                     } else {
-                        data['surveyAnswer']['answers'].push({"choices": []});
+                        data['surveyAnswer']['answers'].push({"choices": [null]});
                     }
                 }
             });
             $('input[type=range]').each(function(){    
                 if($(this).attr('data-ordem') == i){      
-                    data['surveyAnswer']['answers'].push({"choices": [$(this).val()]});
+                    data['surveyAnswer']['answers'].push({"choices": [parseInt($(this).val())]});
                 }
             });
             $('input[type=checkbox]').each(function(){
                 if($(this).attr('data-ordem') == i){
-                    let val = '';
+                    let val = null;
                     idch = $(this).attr('id');
                     idch = idch.replace('qt-', ''); 
                     idch = idch.split("-");
                     if ($(this).is(':checked')) { 
-                        val = idch[1];                          
+                        val = parseInt(idch[1]);                          
                     }
-                    data['surveyAnswer']['answers'].push({"choices": [idch[0], val]});
+                    data['surveyAnswer']['answers'].push({"choices": [parseInt(idch[0]), val]});
                 }            
             });
             $('input[type=text], textarea').each(function(){
