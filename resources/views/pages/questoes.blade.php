@@ -231,14 +231,15 @@ body{height: 100vh;  background: #ffedcb }
         $('.divquestoes').each(function(i){
             $('input[type=radio]').each(function(){
                 if($(this).attr('data-ordem') == i){
+                    if (data['surveyAnswer']['answers'].length === i) {
+                        data['surveyAnswer']['answers'].push({"choices": []});
+                    }
                     if ($(this).is(':checked')) { 
                         let val = $(this).attr('id');
                         val = val.replace('qt-', ''); 
                         val = val.split("-");
                         val = parseInt(val[1]);
-                        data['surveyAnswer']['answers'].push({"choices": [val]});                     
-                    } else {
-                        data['surveyAnswer']['answers'].push({"choices": [null]});
+                        data['surveyAnswer']['answers'][i]['choices'].push(val);                     
                     }
                 }
             });
@@ -249,15 +250,18 @@ body{height: 100vh;  background: #ffedcb }
             });
             $('input[type=checkbox]').each(function(){
                 if($(this).attr('data-ordem') == i){
-                    let val = null;
+                    if (data['surveyAnswer']['answers'].length === i) {
+                        data['surveyAnswer']['answers'].push({"choices": []});
+                    }
+
                     idch = $(this).attr('id');
                     idch = idch.replace('qt-', ''); 
                     idch = idch.split("-");
-                    if ($(this).is(':checked')) { 
-                        val = parseInt(idch[1]);                          
-                    }
                     
-                    data['surveyAnswer']['answers'].push({"choices": [parseInt(idch[0]), val]});
+                    if ($(this).is(':checked')) { 
+                        let val = parseInt(idch[1]);
+                        data['surveyAnswer']['answers'][i]['choices'].push(val)                   
+                    }
                 }            
             });
             $('input[type=text], textarea').each(function(){
