@@ -54,7 +54,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#hero">Home</a></li>
-          <li><a href="#about">Serviços</a></li>
+          <li><a href="#about">Serviçosss</a></li>
           <!-- <li><a href="#services">Serviços</a></li> -->
           <li><a href="#counts">XB3</a></li>
           <li><a href="#contact">Contato</a></li>
