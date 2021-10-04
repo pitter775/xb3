@@ -90,11 +90,12 @@ body{height: 100vh;  background: #ffedcb }
     <span class="obrigado2"><img src="{{ asset('img') }}/logop.png" alt=""></span>
 </div>
 
-
+console.log('. json_encode( $data ) 
 
 @endsection
 @push('scripts')
 <script>
+    
     var appUrl ="{{env('APP_URL')}}";
     $.ajaxSetup({headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')}});
     $('.centertela').hide();    
