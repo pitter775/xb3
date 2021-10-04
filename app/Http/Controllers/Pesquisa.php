@@ -7,10 +7,11 @@ use Illuminate\Http\Request;
 class Pesquisa extends Controller
 {
     public function index($id){
-        $json = file_get_contents("https://dev-survy.xb3solucoes.com.br/rest/survey/6152eeeae4b0c35f94693f16");  
+        $json = file_get_contents("https://dev-survy.xb3solucoes.com.br/rest/survey/".$id."");  
         $data = json_decode($json);
-
-
+        if($data->alreadyAnswered){
+            return view("pages.questoes_ok", compact('data'));
+        }
         return view("pages.questoes", compact('data'));
     }
 }

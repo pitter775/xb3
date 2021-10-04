@@ -223,7 +223,7 @@ body{height: 100vh;  background: #ffedcb }
                 longitude: longitude, // se não for aceito o compartilhamento pelo usuário pode mandar 0
                 answerDateSec: now, // pegar o tempo em milisegundos EPOCH
                 surveyId: {
-                    surveyId: $('input[name=surveyId]').val()
+                    surveyId: $('input[name=surveyId]').val()   
                 },
                 answers: []
             }
