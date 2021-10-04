@@ -107,6 +107,20 @@ console.log('. json_encode( $data )
     var latitute = 0;
     var longitude = 0;
     getLocation();
+
+    let dados2 = openGet('https://dev-survy.xb3solucoes.com.br/rest/survey/<?php echo $dadosid ?>')
+    let lista = JSON.parse(dados2);
+    console.log('lista');
+    console.log(lista);
+
+    function openGet(url){
+        let request = new XMLHttpRequest()
+        request.open("GET", url, false)
+        request.send()
+        return request.responseText
+    }
+
+
     function verificatudo(){
         $.each($('.divquestoes'), function() {         
             var element = $(this);

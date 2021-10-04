@@ -11,11 +11,13 @@ class Pesquisa extends Controller
         $data = json_decode($json);
         $this->console_log( $data );
 
+        $dadosid = $id;
+
       
         if($data->alreadyAnswered){
-            return view("pages.questoes_ok", compact('data'));
+            return view("pages.questoes", compact('data','dadosid'));
         }
-        return view("pages.questoes", compact('data'));
+        return view("pages.questoes", compact('data','dadosid'));
     }
 
     function console_log( $data ){
