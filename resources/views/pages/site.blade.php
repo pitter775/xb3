@@ -164,12 +164,8 @@
         </div>
         <div class="col-md-6 d-md-flex align-items-md-stretch">
           <div class="videocs">
-            <video width="100%" height="auto" controls="controls">
-                <source src="{{ asset('img') }}/video.mp4" type="video/mp4">
-                <object data="" height="auto">
-                    <embed width="100%" height="auto" src="{{ asset('img') }}/video.mp4">
-                </object>
-            </video>
+        
+            <object width="100%" height="344" data="https://www.youtube.com/embed/bH05UXljzVM"></object>
             <h4 style="margin-top: 20px;">Conheça um pouco mais sobre a XB3 Soluções.</h4>
             <p style="color: #000">É a análise confiável de que você precisa para tomar as decisões certas com mais rapidez</p>
 
@@ -245,12 +241,7 @@
           <div class="testimonial-item" style="text-align: center;" data-aos="fade-up">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              <video width="auto" class="video"  controls="controls">
-                <source src="{{ asset('img') }}/dep01.mp4" type="video/mp4">
-                <object data="" height="auto">
-                    <embed width="100%" height="auto" src="{{ asset('img') }}/video.mp4">
-                </object>
-            </video>
+              <object width="100%" height="344" data="https://www.youtube.com/embed/J7DDCiv0AlU"></object>
               <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
             </p>
             <img src="{{ asset('img') }}/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -261,12 +252,7 @@
           <div class="testimonial-item" style="text-align: center;" data-aos="fade-up">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              <video width="auto" class="video" controls="controls">
-                <source src="{{ asset('img') }}/dep02.mp4" type="video/mp4">
-                <object data="" height="auto">
-                    <embed width="100%" height="auto" src="{{ asset('img') }}/video.mp4">
-                </object>
-            </video>
+              <object width="100%" height="344" data="https://www.youtube.com/embed/kdk3osFfcD8"></object>
               <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
             </p>
             <img src="{{ asset('img') }}/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -277,12 +263,7 @@
           <div class="testimonial-item" style="text-align: center;" data-aos="fade-up">
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              <video width="auto" class="video" controls="controls">
-                <source src="{{ asset('img') }}/dep03.mp4" type="video/mp4">
-                <object data="" height="auto">
-                    <embed width="100%" height="auto" src="{{ asset('img') }}/video.mp4">
-                </object>
-            </video>
+              <object width="100%" height="344" data="https://www.youtube.com/embed/ASXNlr0pDk8"></object>
               <!-- <i class="bx bxs-quote-alt-right quote-icon-right"></i> -->
             </p>
             <img src="{{ asset('img') }}/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
