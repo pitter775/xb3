@@ -17,7 +17,7 @@ class Pesquisa extends Controller
         }catch(Exception $ex){
             $data = '';    
             $dadosid = '';
-            return view("pages.questoes_ok", compact('data','dadosid'));
+            return view("pages.questoes_ok2", compact('data','dadosid'));
         }
     }
 }
