@@ -1,4 +1,4 @@
-@extends('layouts.app_quest', ['titulopesq'  => $data->name])
+@extends('layouts.app_quest', ['titulopesq'  => 'Pesquisa não encontrada'])
 @section('content')
 
 
