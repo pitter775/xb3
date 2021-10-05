@@ -112,6 +112,9 @@ console.log('. json_encode( $data )
     let lista = JSON.parse(dados2);
     console.log('lista');
     console.log(lista);
+    console.log('lista2');
+    console.log(lista['alreadyAnswered']);
+
 
     if(lista['alreadyAnswered']){
         $('.centertela').show();
