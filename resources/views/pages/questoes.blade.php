@@ -110,16 +110,22 @@ console.log('. json_encode( $data )
 
     let dados2 = openGet('https://dev-survy.xb3solucoes.com.br/rest/survey/<?php echo $dadosid ?>')
     let lista = JSON.parse(dados2);
-    console.log('lista');
-    console.log(lista);
-    console.log('lista2');
-    console.log(lista['alreadyAnswered']);
+    // console.log('lista');
+    // console.log(lista);
+    // console.log('lista2');
+    // console.log(lista['alreadyAnswered']);
 
 
     if(lista['alreadyAnswered']){
+        $('.tarja').animate({opacity: '0',},{
+            easing: 'swing',duration: 500,complete: function(){$('.tarja').hide();}
+        });
+        $('.contgeral').animate({marginTop: '-350px',opacity: '0',},{
+            easing: 'swing',duration: 500,complete: function(){$('.contgeral').hide();}
+        }); 
         $('.centertela').show();
         $(".obrigado").delay(1000).animate({   opacity: '1', }, 1200, null);
-        $(".obrigado2").delay(1800).animate({   opacity: '1', }, 500, null);      
+        $(".obrigado2").delay(1800).animate({   opacity: '1', }, 500, null);    
     }
 
     function openGet(url){
@@ -217,7 +223,7 @@ console.log('. json_encode( $data )
         e.preventDefault(); 
         let form = $('#form_informacoes');
         let dadosform = dadosformall();
-        console.log(JSON.stringify(dadosform));
+        // console.log(JSON.stringify(dadosform));
         $.ajax({
             url: 'https://dev-survy.xb3solucoes.com.br/rest/public/answer/send',
             contentType: 'application/json',
