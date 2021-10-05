@@ -113,6 +113,12 @@ console.log('. json_encode( $data )
     console.log('lista');
     console.log(lista);
 
+    if(!$lista['alreadyAnswered']){
+        $('.centertela').show();
+        $(".obrigado").delay(1000).animate({   opacity: '1', }, 1200, null);
+        $(".obrigado2").delay(1800).animate({   opacity: '1', }, 500, null);      
+    }
+
     function openGet(url){
         let request = new XMLHttpRequest()
         request.open("GET", url, false)
