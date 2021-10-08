@@ -165,7 +165,7 @@
         <div class="col-md-6 d-md-flex align-items-md-stretch">
           <div class="videocs">
         
-            <object width="100%" height="344" data="https://www.youtube.com/embed/VqFm8l8_Qfg"></object>
+            <object width="100%" height="344" data="https://www.youtube.com/embed/lzdni2TdCxY"></object>
             <h4 style="margin-top: 20px;">Conheça um pouco mais sobre a XB3 Soluções.</h4>
             <p style="color: #000">É a análise confiável de que você precisa para tomar as decisões certas com mais rapidez</p>
 
