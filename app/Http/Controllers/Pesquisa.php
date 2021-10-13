@@ -10,7 +10,7 @@ class Pesquisa extends Controller
     public function index($id){
 
         try{
-            $json = file_get_contents("https://dev-survy.xb3solucoes.com.br/rest/survey/".$id."");  
+            $json = file_get_contents("https://survy.xb3solucoes.com.br/rest/survey/".$id."");  
             $data = json_decode($json);    
             $dadosid = $id;
             return view("pages.questoes", compact('data','dadosid'));

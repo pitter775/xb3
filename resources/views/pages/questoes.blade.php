@@ -107,7 +107,7 @@ body{height: 100vh;  background: #ffedcb }
     var longitude = 0;
     getLocation();
 
-    let dados2 = openGet('https://dev-survy.xb3solucoes.com.br/rest/survey/<?php echo $dadosid ?>')
+    let dados2 = openGet('https://survy.xb3solucoes.com.br/rest/survey/<?php echo $dadosid ?>')
     let lista = JSON.parse(dados2);
     // console.log('lista');
     // console.log(lista);
@@ -224,7 +224,7 @@ body{height: 100vh;  background: #ffedcb }
         let dadosform = dadosformall();
         // console.log(JSON.stringify(dadosform));
         $.ajax({
-            url: 'https://dev-survy.xb3solucoes.com.br/rest/public/answer/send',
+            url: 'https://survy.xb3solucoes.com.br/rest/public/answer/send',
             contentType: 'application/json',
             cache: false,
             method: 'POST',
