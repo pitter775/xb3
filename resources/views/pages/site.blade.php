@@ -90,7 +90,7 @@
        
           <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">      
             <object width="100%" height="304" data="https://www.youtube.com/embed/Ig0IelGJPAI"></object>      
-            <img src="{{ asset('img') }}/empresa.jpg" class="img-fluid imgempresa"  alt="">
+            <!-- <img src="{{ asset('img') }}/empresa.jpg" class="img-fluid imgempresa"  alt=""> -->
           </div>
           <div class="col-md-6 icon-box" style="padding-left: 40px;" data-aos="fade-up" data-aos-delay="300">            
             <!-- <h4>Identificar oportunidades com antecedência</h4> -->
