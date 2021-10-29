@@ -8,7 +8,7 @@ body{height: 100vh;  background: #ffedcb }
 .tarja{ height: 180px; width: 100%; background-color: rgba(254, 47, 9, 0.2); text-align: center;}
 .contgeral{ margin-top: -80px;     border-radius: 8px; }
 .centro{ padding: 10px}
-.titpesq{ background-color: #ff7700;  width: 100%; padding: 20px; color: #fff; font-size: 22px; font-weight: bold;  position: relative; z-index: 1;}
+.titpesq{ background-color: #ff7700;  width: 100%; padding: 25px; color: #fff; font-size: 22px; font-weight: bold;  position: relative; z-index: 1;}
 .titpesqp{ padding: 20px; color: #999; font-size: 16px; background: #fff; border-radius: 8px; box-shadow: 0 3px 10px -4px rgb(0 0 0 / 45%); margin-top: -10px; position: relative; z-index: 0;}
 .divquestoes{ padding: 20px; color: #555; font-size: 16px; margin-top: 10px; background: #fff;  border-radius: 8px; box-shadow: 0 3px 10px -4px rgb(0 0 0 / 45%) }
 .container{ background-color: none;}
