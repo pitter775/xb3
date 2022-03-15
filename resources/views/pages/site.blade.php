@@ -158,7 +158,7 @@
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta sombra">
       <div class="container" data-aos="zoom-in">
-      <h3 class="laranja" style="text-align: center;">XB3 Soluções produz um ecossistema de informações que ajudam as organizações a evitar exageros, mitigar riscos, prever resultados e acelerar o crescimento. </h3>
+      <h3 class="laranja" style="text-align: center;">XB3 Soluções produz um ecossistema de informações que ajudam as organizações a evitar exageros, mitigar riscos, prever resultados e acelerar o crescimento.. </h3>
       <div class="row">
         <div class="col-md-6 d-md-flex align-items-md-stretch">
           <img src="{{ asset('img') }}/surv1.png" class="img-fluid"  style="margin: 70px 0px;" alt="">
