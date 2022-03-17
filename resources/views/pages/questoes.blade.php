@@ -213,7 +213,7 @@
     </div>
     <div class="centertela">
         <span class="obrigado"> Obrigado por sua participação!</span><br>
-        <span class="obrigado2"><img src="{{ asset('img') }}/logop.png" alt=""></span>
+        <span class="obrigado2"><img src="{{ asset('img') }}/{{$layout_ativo['img']}}" alt=""></span>
     </div>
 @endsection
 @push('scripts')
