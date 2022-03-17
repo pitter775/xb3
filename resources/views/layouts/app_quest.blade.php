@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    <meta name="theme-color" content="#612400">
+    <meta name="theme-color" content="{{$dados['tema']}}">
     <meta content="pitter775@gmail.com" name="author">
-    <meta property="og:description" content="{{$titulopesq}}"/>
-    <meta property="og:image" content="{{ asset('img') }}/logowhats.jpg" />
+    <meta property="og:description" content="{{$dados['titpesq']}}"/>
+    <meta property="og:image" content="{{ asset('img') }}/{{$dados['imgwhats']}}" />
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="pt_BR"/> 
 
     <link rel="apple-touch-icon" sizes="76x76" href="">
-    <link rel="icon" type="image/png" href="{{ asset('img') }}/logop.png">
+    <link rel="icon" type="image/png" href="{{ asset('img') }}/{{$dados['img_icone']}}">
 
-    <title> XB3 Soluções - Pesquisa </title>
+    <title> {{$dados['tit']}} </title>
 
     <!-- CSS Files -->
     <link href="https://xb3-laravel.vercel.app/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />

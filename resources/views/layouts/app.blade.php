@@ -80,7 +80,7 @@
     <script src="https://xb3-laravel.vercel.app/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="https://xb3-laravel.vercel.app/vendor/aos/aos.js"></script>
     <!-- Template Main JS File -->
-    <script src="js/main.js"></script>
+    <script src="https://xb3-laravel.vercel.app/js/main.js"></script>
     <!-- <script src="{{ asset('js') }}/whats.js"></script> -->
     <!-- <script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script> -->
 
