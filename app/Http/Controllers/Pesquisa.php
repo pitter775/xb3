@@ -12,7 +12,7 @@ class Pesquisa extends Controller
         try{
             $json = file_get_contents("https://survy.xb3solucoes.com.br/rest/survey/".$id."");              
             $data = json_decode($json);  
-            if(!$data){
+            if($data == null){
                 return 'teste';
             }  
             $dadosid = $id;
