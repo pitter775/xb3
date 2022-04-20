@@ -1,4 +1,4 @@
-@extends('layouts.app_quest', ['titulopesq'  => 'Pesquisa não encontrada'])
+@extends('layouts.app_quest2', ['titulopesq'  => 'Pesquisa encerrada'])
 @section('content')
 
 
@@ -22,7 +22,7 @@ body{height: 100vh;  background: #ffedcb }
 
 
 <div class="centertela">
-    <span class="obrigado"> Pesquisa não encontrada.</span><br>
+    <span class="obrigado"> Pesquisa encerrada.</span><br>
     <span class="obrigado2"><img src="{{ asset('img') }}/logop.png" alt=""></span>
 </div>
 

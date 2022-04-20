@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#612400">
     <meta content="pitter775@gmail.com" name="author">
     <meta property="og:description" content="{{$titulopesq}}"/>
-    <meta property="og:image" content="{{ asset('img') }}/logowhats.jpg" />
+    <meta property="og:image" content="{{ asset('img') }}/logowhats2.jpg" />
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="pt_BR"/> 
 
