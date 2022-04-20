@@ -8,7 +8,7 @@
         'tema' => '#612400',
         'img' => 'logop.png',
         'img_icone' => 'logop.png',
-        'imgwhats' => 'logowhats.jpg',
+        'imgwhats' => 'logowhats2.jpg',
         'tit' => 'XB3 Soluções - Pesquisa',
         'titpesq' => $data->name
     ];

@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#ff7c00">
     <meta content="pitter775@gmail.com" name="author">
     <meta property="og:description" content="XB3 Sistema de Pesquisas Inteligentes."/>
-    <meta property="og:image" content="{{ asset('img') }}/logowhats.jpg" />
+    <meta property="og:image" content="{{ asset('img') }}/logowhats2.jpg" />
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="pt_BR"/> 
 
