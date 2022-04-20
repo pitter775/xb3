@@ -11,9 +11,7 @@ class Pesquisa extends Controller
 
         try{
             $json = file_get_contents("https://survy.xb3solucoes.com.br/rest/survey/".$id."");  
-            if($json == 'Permission denied'){
-                return 'teste';
-            }
+            
             $data = json_decode($json);    
             $dadosid = $id;
             return view("pages.questoes", compact('data','dadosid'));
